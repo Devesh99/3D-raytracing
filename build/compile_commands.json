@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/sarc-c/gpusw/users/devesh.varma/3D-raytracing/build",
+  "command": "/tool/pkg/gcc-11.1.0-1/bin/c++  -I/sarc-c/gpusw/users/devesh.varma/3D-raytracing/src -Wnon-virtual-dtor -Wreorder -Wmaybe-uninitialized -Wunused-variable -std=c++11 -o CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o -c /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/main.cc",
+  "file": "/sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/main.cc"
+}
+]
