@@ -8,7 +8,8 @@ class material {
   public:
     virtual ~material() = default;
 
-    virtual bool scatter(const ray& r_in, const hit_record& rec, color& attenuation, ray& scattered) const {
+    virtual bool scatter(const ray& r_in, 
+      const hit_record& rec, color& attenuation, ray& scattered) const {
         return false;
     }
 };
@@ -72,7 +73,8 @@ class dielectric : public material {
         bool cannot_refract = ri * sin_theta > 1.0;
         vec3 direction;
 
-        if (cannot_refract || reflectance(cos_theta, ri) > random_double())
+        if (cannot_refract || reflectance(cos_theta, ri) 
+            > random_double())
             direction = reflect(unit_direction, rec.normal);
         else
             direction = refract(unit_direction, rec.normal, ri);

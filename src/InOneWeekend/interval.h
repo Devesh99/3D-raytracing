@@ -1,7 +1,8 @@
 #ifndef INTERVAL_H
 #define INTERVAL_H
 
-#include <cmath>
+// #include <cmath>
+#include <limits>
 
 const double infinity = std::numeric_limits<double>::infinity();
 

@@ -17,8 +17,8 @@ class camera {
     point3 lookat   = point3(0,0,-1); // Point camera is looking at
     vec3   vup      = vec3(0,1,0);    // Camera-relative "up" direction
 
-    double defocus_angle = 0;   // Variation angle of rays through each pixel
-    double focus_dist = 10;     // Distance from camera lookfrom point to plane of perfect focus
+    double defocus_angle = 0;  // Variation angle of rays through each pixel
+    double focus_dist = 10;    // Distance from camera lookfrom point to plane of perfect focus
 
     void render(const hittable& world) {
         initialize();
