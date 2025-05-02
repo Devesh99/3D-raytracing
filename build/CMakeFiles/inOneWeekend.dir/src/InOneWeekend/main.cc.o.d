@@ -166,12 +166,19 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: \
  /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/interval.h \
  /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/vec3.h \
  /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/ray.h \
- /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/camera.h \
- /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/hittable.h \
- /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/material.h \
+ /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/bvh.h \
+ /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/aabb.h \
  /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/hittable_list.h \
+ /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/hittable.h \
  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/vector \
  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_vector.h \
  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_bvector.h \
  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/vector.tcc \
+ /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/algorithm \
+ /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_algo.h \
+ /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/algorithmfwd.h \
+ /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_heap.h \
+ /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/uniform_int_dist.h \
+ /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/camera.h \
+ /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/material.h \
  /sarc-c/gpusw/users/devesh.varma/3D-raytracing/src/InOneWeekend/sphere.h

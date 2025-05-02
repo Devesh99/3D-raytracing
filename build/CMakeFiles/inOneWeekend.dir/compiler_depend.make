@@ -209,18 +209,33 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: ../src/InOneWeekend/main
   ../src/InOneWeekend/interval.h \
   ../src/InOneWeekend/vec3.h \
   ../src/InOneWeekend/ray.h \
-  ../src/InOneWeekend/camera.h \
-  ../src/InOneWeekend/hittable.h \
-  ../src/InOneWeekend/material.h \
+  ../src/InOneWeekend/bvh.h \
+  ../src/InOneWeekend/aabb.h \
   ../src/InOneWeekend/hittable_list.h \
+  ../src/InOneWeekend/hittable.h \
   /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/vector \
   /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_vector.h \
   /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_bvector.h \
   /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/vector.tcc \
+  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/algorithm \
+  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_algo.h \
+  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/algorithmfwd.h \
+  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_heap.h \
+  /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/uniform_int_dist.h \
+  ../src/InOneWeekend/camera.h \
+  ../src/InOneWeekend/material.h \
   ../src/InOneWeekend/sphere.h
 
 
 ../src/InOneWeekend/sphere.h:
+
+../src/InOneWeekend/camera.h:
+
+/tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/uniform_int_dist.h:
+
+/tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/algorithmfwd.h:
+
+/tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_algo.h:
 
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/vector.tcc:
 
@@ -228,9 +243,11 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: ../src/InOneWeekend/main
 
 ../src/InOneWeekend/hittable_list.h:
 
-../src/InOneWeekend/camera.h:
+../src/InOneWeekend/bvh.h:
 
 ../src/InOneWeekend/ray.h:
+
+../src/InOneWeekend/aabb.h:
 
 ../src/InOneWeekend/vec3.h:
 
@@ -506,6 +523,8 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: ../src/InOneWeekend/main
 
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/exception.h:
 
+/tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/algorithm:
+
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/refwrap.h:
 
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/allocator.h:
@@ -585,6 +604,8 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: ../src/InOneWeekend/main
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_relops.h:
 
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/tuple:
+
+/tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/bits/stl_heap.h:
 
 /tool/pkg/gcc-11.1.0-1/include/c++/11.1.0/cstdio:
 
